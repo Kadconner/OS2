@@ -221,6 +221,8 @@ cout<<"    ./lab -s dir"<<endl;
 
 int main(int argc, char *argv[])
 {
+    if (argc==1) return 0;
+    
 	//argv[1]="-d";
 	//argv[2]="main";
 	//argv[3]="";
@@ -240,6 +242,8 @@ int main(int argc, char *argv[])
     if (strcmp(argv[1],"-h")==0) spravka();
     
     if (strcmp(argv[1],"--help")==0) spravka();
+    
+    
 		
 	return 0;	
 }
