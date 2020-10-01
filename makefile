@@ -1,2 +1,2 @@
-main: lab2.cpp
-	g++ -w -o main lab2.cpp
+lab: lab2.cpp
+	g++ -w -o lab lab2.cpp
